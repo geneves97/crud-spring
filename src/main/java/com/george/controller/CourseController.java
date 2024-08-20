@@ -1,5 +1,6 @@
 package com.george.controller;
 
+import com.george.model.Course;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,7 +12,7 @@ import java.util.List;
 public class CourseController {
 
     @GetMapping
-    public List<object> list(){
+    public List<Course> list(){
         return null;
     }
 
