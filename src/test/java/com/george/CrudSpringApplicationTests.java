@@ -1,4 +1,4 @@
-package com.george.crud_spring;
+package com.george;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
